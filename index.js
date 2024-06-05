@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["Official Waks Bot","Discounted Shop","Game Credits","Discord Products","Premium Accounts"];
 
 
 let currentIndex = 0;
