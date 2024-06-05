@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["🛒 DISCOUNTED SHOP","🛒 NITRO BOOSTS","🛒 GAME CREDITS","🛒 PREMIUM ACCOUNTS"];
 
 
 let currentIndex = 0;
