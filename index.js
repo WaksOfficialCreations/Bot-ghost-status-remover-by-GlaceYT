@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["🛒DISCOUNTED SHOP","🛒NITRO BOOSTS","🛒GAME CREDITS","🛒PREMIUM ACCOUNTS"];
+const statusMessages = ["Watching myself","made by Waks"];
 
 
 let currentIndex = 0;
@@ -92,8 +92,8 @@ function updateStatusAndSendMessages() {
 
 client.once('ready', () => {
   console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot is ready as ${client.user.tag}`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨HAPPY NEW YEAR MY DEAR FAMILY`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️WELCOME TO 2024`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨BOT MADE BY WAKS`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️VERSION: 1.0`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
